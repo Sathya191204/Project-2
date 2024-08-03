@@ -38,7 +38,7 @@ input[type="text"] { /*delicious meal*/
 }
 
 .btn {
-  cursor: pointer;  
+  cursor:pointer; 
 }
 
 button[type="submit"] {
@@ -63,9 +63,10 @@ button[type="submit"]:hover {
   margin: 40px 0;
 }
 
-#results > div {
+#results > div { 
+  /*direct children* card like appearance*/
   background-color: #fff;
-  border-radius: 8px;
+  border-radius: 9px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
@@ -76,11 +77,11 @@ button[type="submit"]:hover {
   border-radius: 8px;
   margin-bottom: 20px;
   object-fit: cover;
-  height: 200px;
+  height: 250px;
   width: 100%;
 }
 
-#results h3 {
+#results h3 { /*the one in dark black*/
   color: #333;
   font-size: 24px;
   margin: 0;
@@ -92,7 +93,8 @@ button[type="submit"]:hover {
 }
 
 #results li {
-  list-style: none;
+  margin-left: 20px;
+  list-style-type:square;
   margin-bottom: 10px;
 }
 
